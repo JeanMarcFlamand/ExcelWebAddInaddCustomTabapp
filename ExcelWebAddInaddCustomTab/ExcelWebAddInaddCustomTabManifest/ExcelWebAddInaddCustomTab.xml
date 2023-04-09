@@ -108,6 +108,26 @@
                 </Control>
               </Group>
             </OfficeTab>
+
+			  <CustomTab id="Contoso.TabCustom">
+				  <Group id="Contoso.TabCustom2.group2">
+					  <Label resid="residCustomTabGroupLabel"/>
+					  <Icon>
+						  <bt:Image size="16" resid="blue-icon-16" />
+						  <bt:Image size="32" resid="blue-icon-32" />
+						  <bt:Image size="80" resid="blue-icon-80" />
+					  </Icon>
+					  <Control xsi:type="Button" id="Contoso.Button2">
+						  <!-- information on the control omitted -->
+						  <Label resid="Test"/>
+						  
+					  </Control>
+					  <OfficeControl id="Superscript" />
+					  <!-- other controls, as needed -->
+				  </Group>
+				  <Label resid="customTabLabel1" />
+			  </CustomTab>
+			  
           </ExtensionPoint>
         </DesktopFormFactor>
       </Host>
